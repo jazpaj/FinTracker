@@ -105,6 +105,7 @@ export default function Layout({ children }) {
                   to={path}
                   end={path === '/'}
                   className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+                  onClick={() => setSidebarOpen(false)}
                 >
                   <Icon />
                   {label}
