@@ -40,7 +40,7 @@ export default function Layout({ children }) {
         <div className="sidebar-logo">
           <h1>
             <span><DollarSign size={21} /></span>
-            FinTrack
+            MoneyMap
           </h1>
           <p>{user?.full_name || user?.username}</p>
         </div>

@@ -14,7 +14,7 @@ from routers import (
     reports_router,
 )
 
-app = FastAPI(title="Finance Tracker API", version="1.0.0")
+app = FastAPI(title="MoneyMap API", version="1.0.0")
 
 # Allow frontend origins (local + production Vercel URL)
 allowed_origins = [

@@ -322,11 +322,11 @@ function generatePDF(data) {
     doc.setFontSize(7)
     doc.setFont('helvetica', 'normal')
     doc.setTextColor(...muted)
-    doc.text('FinTrack - Personal Finance Tracker', 14, pageH - 5)
+    doc.text('MoneyMap - Personal Finance Tracker', 14, pageH - 5)
     doc.text(`Page ${i} of ${totalPages}`, pageWidth - 14, pageH - 5, { align: 'right' })
   }
 
-  doc.save(`FinTrack_Report_${data.month_name}_${data.year}.pdf`)
+  doc.save(`MoneyMap_Report_${data.month_name}_${data.year}.pdf`)
 }
 
 const CustomTooltip = ({ active, payload, label }) => {
